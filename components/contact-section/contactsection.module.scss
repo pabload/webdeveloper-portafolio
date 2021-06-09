@@ -1,0 +1,128 @@
+.mainContainer {
+  position: relative;
+}
+.iconsContainer {
+  background-color: #222831;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.icon {
+  position: absolute;
+  transform: translatey(0px);
+  animation: float 2s ease-in-out infinite;
+}
+
+.icon1 {
+  left: 10%;
+  top: 10%;
+}
+.icon2 {
+  left: 5%;
+  top: 70%;
+}
+.icon3 {
+  left: 70%;
+  top: 10%;
+}
+.icon4 {
+  left: 70%;
+  top: 70%;
+}
+.icon5 {
+  top: 30%;
+  left: 10%;
+}
+.icon6 {
+  top: 50%;
+  left: 80%;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.infoContainer {
+  padding: 5%;
+}
+.sectionTitle {
+  font-size: 72px;
+  display: inline;
+  color: #29a19c;
+  border-bottom: solid;
+  border-color: #62929a;
+  span {
+    color: #29a19c;
+  }
+}
+.subTitle{
+  text-align: center;
+  font-size: 42px;
+  color: #efecec;
+}
+.formContainer {
+  background-color: #393e46;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.formInputs {
+  margin-bottom: 2%;
+  color: #efecec;
+  background-color: transparent;
+  border-color: #29a19c;
+  border-style: solid;
+  padding: 2%;
+  font-style: 36px;
+  &:focus {
+    outline: none !important;
+    border-color: #29a19c;
+    border-style: solid;
+  }
+}
+.formButton {
+  margin: auto;
+  width: 60%;
+  background-color: transparent;
+  border-color: #29a19c;
+  border-style: solid;
+  color: #efecec;
+  text-align: center;
+  font-size: 36px;
+  transition: 0.3s;
+  &:hover {
+    background-color: #29a19c;
+    border-color: #29a19c;
+  }
+}
+.successContainer{
+  background-color: #393e46;
+  color: #efecec;
+  padding:5%;
+  text-align: center;
+  h1{
+    font-size: 72px;
+  }
+}
+.alertBox{
+  font-size: 20px;
+  padding: 2%;
+  width: 100%;
+  background-color: #62929a;
+  color: #efecec;
+  text-align: center;
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+  .formButton {
+    text-align: center;
+   font-size: 25px;
+  }
+}

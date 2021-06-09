@@ -1,0 +1,28 @@
+.mainContainer {
+  overflow: hidden;
+  width: 100vw;
+  height: 320px;
+  background-image: url('/personalinfosection-background.svg');
+  color: #efecec;
+  padding: 2%;
+  h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: justify;
+  }
+}
+.bgWrap {
+  height: 320vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+  .mainContainer {
+    h1{
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.mainContainer{
+    position: relative;
+    background-color: #393e46;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    color: #efecec;
+}
+.gobackContainer{
+    padding: .8%;
+    background-color: #62929a;
+    position: absolute;
+    top: -10%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .mainContainer{
+        padding: 8%;
+    }
+
+}

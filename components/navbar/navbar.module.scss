@@ -1,0 +1,69 @@
+.mainContainer{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.navContainer {
+  width: 100vw;
+  background-color: #393e46;
+  height: 8vh;
+  border-bottom-style: solid;
+  border-bottom-color: #62929a;
+  border-bottom-width: thick;
+  display: flex;
+  align-items: center;
+  color: #efecec;
+}
+.fixedContainer {
+  bottom: inherit;
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.optionsList {
+  list-style: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+.mobileOptionsList {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #efecec;
+}
+.mobileOptionsContainer{
+  display: none;
+}
+.mobileOptionsContainerOpen{
+  display: flex;
+  position: fixed;
+}
+.hamburger{
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .mobileOptionsContainer{
+    padding-top: 4%;
+    z-index: 99;
+    background-color: #363434;
+    width: 100vw;
+    height: auto;
+  }
+  .navContainer{
+    padding: 4%;
+    justify-content: flex-end;
+  }
+  .optionsList{
+    display: none;
+  }
+  .hamburger {
+    display: inline;
+    color: white;
+  }
+}
