@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import Styles from './contactsection.module.scss'
 import { useForm, ValidationError } from '@formspree/react';
-import AOS from 'aos'
 const ContactSection = () => {
     const [state, handleSubmit] = useForm("moqyaokd");
     const [name, setName] = useState("")
@@ -25,7 +24,7 @@ const ContactSection = () => {
         </div>
     }
     const contactForm = () => {
-        return <form  data-aos="zoom-in" className={`${Styles.formContainer}`} onSubmit={validateFields}>
+        return <form className={`${Styles.formContainer}`} onSubmit={validateFields}>
             {
                 formError ?
                     <div className={`${Styles.alertBox} mb-3 rounded`}>
@@ -55,13 +54,6 @@ const ContactSection = () => {
             <button type="submit" disabled={state.submitting} className={`${Styles.formButton} rounded-pill shadow`}>Submit</button>
         </form>
     }
-    useEffect(() => {
-        AOS.init({
-            duration: 2000,
-            disable: 'mobile'
-        });
-
-    }, []);
     return (
         <section id="contact" className={`${Styles.mainContainer}`}>
             <section className={Styles.mainContainer} >
