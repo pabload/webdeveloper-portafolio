@@ -78,7 +78,7 @@ const Aboutsection = () => {
                     </div>
                     <div className={`col-lg-3 col-md-3 col-8`}>
                         <SkillCard skill={'CSS'}
-                            details={'Design modules, animations and web interfaces'} url={'/CSS-skill.svg'} progress={70} />
+                            details={'Design modules, animations and web interfaces'} url={'/css-skill.svg'} progress={70} />
                     </div>
                     <div className={`col-lg-3 col-md-3 col-8`}>
                         <SkillCard skill={'JavaScript'} details={'Logic, ecmascript 6, functions, async / await'} url={'/javascript-skill.svg'} progress={80} />
