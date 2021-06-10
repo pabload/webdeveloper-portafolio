@@ -25,9 +25,9 @@ const MainSection = () => {
             <div className={Styles.infoContainer}>
                 <div className="row">
                     <div className={`col-lg-7  col-md-7`}>
-                        <h1 className={`${Styles.mainText} animate__animated animate__bounce animate__faster`}>Hi , im <span className={Styles.coloredText}>Juan Pablo</span>
+                        <h1 className={`${Styles.mainText} animate__animated animate__bounce animate__faster`}>Hi , I'm <span className={Styles.coloredText}>Juan Pablo</span>
                             <br />
-                         & im a <span className={Styles.coloredText}>Web Developer</span></h1>
+                         & I'm a <span className={Styles.coloredText}>Web Developer</span></h1>
                         <div className={`${Styles.buttonsContainer}`}>
                             <a className={`${Styles.mainButton} rounded-pill shadow `} href="#aboutwork">
                                 Check my work

@@ -3,7 +3,10 @@
     background-color: #393e46;
     padding: 5%;
     display: flex;
+    width: 100vw;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: #efecec;
 }
 .gobackContainer{

@@ -67,7 +67,7 @@
 ////PROJECTS-CARD//////
 .cardContainer {
   position: relative;
-  height: 300px;
+  height: 250px;
 }
 .projectImage {
   opacity: 1;
@@ -78,7 +78,9 @@
   backface-visibility: hidden;
 }
 .hoverContainer {
-  background-color:rgba(97, 144, 152, 0.56);
+  font-weight: 800;
+  word-wrap: break-word;
+  background-color: rgba(97, 144, 152, 0.56);
   width: 100%;
   height: 100%;
   transition: 0.5s ease;
@@ -90,35 +92,35 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.cardContainer:hover .projectImage  {
+.cardContainer:hover .projectImage {
   opacity: 0.3;
 }
 
 .cardContainer:hover .hoverContainer {
   opacity: 1;
 }
-.cardInfoContainer{
-    padding: 4%;
+.cardInfoContainer {
+  padding-top: 6%;
 }
-.cardTitle{
-    color: #EFECEC;
+.cardTitle {
+  color: #efecec;
 }
-.cardStack{
-    color: #a3f7bf;
-    font-weight: bold;
+.cardStack {
+  color: #a3f7bf;
+  font-weight: bold;
 }
-.cardDescription{
-    color: #EFECEC; 
+.cardDescription {
+  color: #efecec;
 }
-.projectButton{
-    padding: 2%;
-    width: 60%;
-    margin: auto;
-    background-color: transparent;
-    border-style: solid;
-    border-color:#EFECEC;
-    color:#EFECEC;
-    &:hover{
-        background-color: #29a19c;
-    }
+.projectButton {
+  padding: 2%;
+  width: 60%;
+  margin: auto;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #efecec;
+  color: #efecec;
+  &:hover {
+    background-color: #29a19c;
+  }
 }

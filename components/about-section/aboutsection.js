@@ -15,11 +15,11 @@ const Aboutsection = () => {
         <section id="aboutwork" className={Styles.mainContainer} >
             <div className={Styles.iconsContainer}>
                 <img className={`${Styles.icon} ${Styles.icon1}`} src="./fragment-icon.svg" alt="" srcset="" />
-                <img className={`${Styles.icon} ${Styles.icon2}`} src="./fragment-icon.svg" alt="" srcset="" />
-                <img className={`${Styles.icon} ${Styles.icon3}`} src="./fragment-icon.svg" alt="" srcset="" />
-                <img className={`${Styles.icon} ${Styles.icon4}`} src="./fragment-icon.svg" alt="" srcset="" />
-                <img className={`${Styles.icon} ${Styles.icon5}`} src="./git-icon.svg" alt="" srcset="" />
-                <img className={`${Styles.icon} ${Styles.icon6}`} src="./git-icon.svg" alt="" srcset="" />
+                <img className={`${Styles.icon} ${Styles.icon2}`} src="./fragment-icon.svg" alt="" srcSet="" />
+                <img className={`${Styles.icon} ${Styles.icon3}`} src="./fragment-icon.svg" alt="" srcSet="" />
+                <img className={`${Styles.icon} ${Styles.icon4}`} src="./fragment-icon.svg" alt="" srcSet="" />
+                <img className={`${Styles.icon} ${Styles.icon5}`} src="./git-icon.svg" alt="" srcSet="" />
+                <img className={`${Styles.icon} ${Styles.icon6}`} src="./git-icon.svg" alt="" srcSet="" />
             </div>
             <div className={Styles.infoContainer}>
                 <h1 className={`${Styles.sectionTitle}`}><span>About</span> My skills</h1>
@@ -73,41 +73,41 @@ const Aboutsection = () => {
                     </div>
                 </div>
                 <div className={`row justify-content-center align-items-center mt-3 `}>
-                    <div className={`col-lg-3`}>
+                    <div className={`col-lg-3 col-md-3 col-8`}>
                         <SkillCard skill={'HTML'} details={'Layout and structure of websites'} url={'/html-skill.svg'} progress={100} />
                     </div>
-                    <div className={`col-lg-3`}>
+                    <div className={`col-lg-3 col-md-3 col-8`}>
                         <SkillCard skill={'CSS'}
                             details={'Design modules, animations and web interfaces'} url={'/CSS-skill.svg'} progress={70} />
                     </div>
-                    <div className={`col-lg-3`}>
+                    <div className={`col-lg-3 col-md-3 col-8`}>
                         <SkillCard skill={'JavaScript'} details={'Logic, ecmascript 6, functions, async / await'} url={'/javascript-skill.svg'} progress={80} />
                     </div>
                 </div>
                 <div className={`row justify-content-center align-items-center mt-3`}>
-                    <div className={`col-lg-3`}>
+                    <div className={`col-lg-3  col-md-3 col-8`}>
                         <SkillCard skill={'Node.js'} details={'Rest Apis, authentication, database management'} url={'/nodejs-skill.svg'} progress={70} />
                     </div>
-                    <div className={`col-lg-3`}>
+                    <div className={`col-lg-3  col-md-3 col-8`}>
                         <SkillCard skill={'Git'} details={'Individual and cooperative workflow control'} url={'/git-skill.svg'} progress={70} />
                     </div>
-                    <div className={`col-lg-3`}>
+                    <div className={`col-lg-3  col-md-3 col-8`}>
                         <SkillCard skill={'React.js'} details={'Use of hooks, state management, component construction'} url={'/react-skill.svg'} progress={86} />
                     </div>
                 </div>
                 <div className={`row justify-content-center align-items-center mt-3`}>
-                    <div className={`col-lg-3`}>
+                    <div className={`col-lg-3  col-md-3 col-8`}>
                         <SkillCard skill={'Java'} details={'Understanding of object-oriented programming'} url={'/java-skill.svg'} progress={70} />
                     </div>
-                    <div className={`col-lg-3`}>
-                        <SkillCard skill={'SQL'} details={'Queries, creation of tables and databases, stored procedure'} url={'/Sql-skill.svg'} progress={70} />
+                    <div className={`col-lg-3  col-md-3 col-8`}>
+                        <SkillCard skill={'SQL'} details={'Queries, creation of tables and databases, stored procedure'} url={'/sql-skill.svg'} progress={70} />
                     </div>
-                    <div className={`col-lg-3`}>
-                        <SkillCard skill={'Bootstrap'} details={'Grid system management, responsive design'} url={'/Bootstrap-skill.svg'} progress={90} />
+                    <div className={`col-lg-3  col-md-3 col-8`}>
+                        <SkillCard skill={'Bootstrap'} details={'Grid system management, responsive design'} url={'/bootstrap-skill.svg'} progress={90} />
                     </div>
                 </div>
                 <div className={`row justify-content-center align-items-center mt-3`}>
-                    <div className={`col-lg-3`}>
+                    <div className={`col-lg-3  col-md-3 col-8`}>
                         <SkillCard skill={'Flutter'} details={'State management with BLOC, layout, dart knowledge'} url={'/flutter-skill.svg'} progress={80} />
                     </div>
                 </div>

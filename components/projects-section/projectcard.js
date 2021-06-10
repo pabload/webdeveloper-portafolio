@@ -1,17 +1,9 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Styles from './projectsection.module.scss'
-import AOS from 'aos'
 const ProjectCard = ({ projectName, ProjectImage, Stack, description, projectUrl, SourceCodeUrl }) => {
-    useEffect(() => {
-        AOS.init({
-            duration: 2000,
-            disable: 'mobile'
-        });
-
-    }, []);
     return (
-        <div data-aos="zoom-in" className={`${Styles.cardContainer}`}>
-            <img src={ProjectImage} alt="project" className={`${Styles.projectImage}`} />
+        <div className={`${Styles.cardContainer}`}>
+            <img className={`${Styles.projectImage}`} src={ProjectImage} alt="project" srcSet="" />
             <div class={`${Styles.hoverContainer}`}>
                 <div className={`${Styles.cardInfoContainer}`}>
                     <h3 className={`${Styles.cardTitle}`}>{projectName}</h3>

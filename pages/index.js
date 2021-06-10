@@ -6,17 +6,21 @@ import MainSection from '../components/main-section/mainsection'
 import NavBar from '../components/navbar/navbar'
 import PersonalInfoSection from '../components/personalinfo-section/personalinfosection'
 import ProjectSection from '../components/projects-section/projectsection'
-
+import { NextSeo } from 'next-seo';
 const index = () => {
   return (
     <>
-      <MainSection/>
-      <NavBar/>
-      <PersonalInfoSection/>
-      <Aboutsection/>
-      <ProjectSection/>
-      <ContactSection/>
-      <FooterSection/>
+      <NextSeo
+        title="Juan Pablo Armenta - Web developer"
+        description="Hi, I'm Juan Pablo Armenta and this is my web portfolio. here you will find my projects and web developer skills."
+      />
+      <MainSection />
+      <NavBar />
+      <PersonalInfoSection />
+      <Aboutsection />
+      <ProjectSection />
+      <ContactSection />
+      <FooterSection />
     </>
   )
 }

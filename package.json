@@ -13,6 +13,7 @@
     "bootstrap": "^5.0.0-beta3",
     "hamburger-react": "^2.4.1",
     "next": "10.2.3",
+    "next-seo": "^4.24.0",
     "radium": "^0.26.1",
     "react": "17.0.2",
     "react-animations": "^1.0.0",

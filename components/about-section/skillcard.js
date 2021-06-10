@@ -23,7 +23,7 @@ const SkillCard = ({ skill, details, url, progress }) => {
                         <div className={`col-lg-6 col-6`}>
                             <p className={`${Styles.cardDetails}`}>{details}</p>
                         </div>
-                        <div className={`col-lg-6 col-6 mb-5`}>
+                        <div className={`col-lg-6 col-6`}>
                             <Image
                                 alt="skill "
                                 src={url}
