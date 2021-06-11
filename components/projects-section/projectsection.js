@@ -35,7 +35,7 @@ const ProjectSection = () => {
                         <ProjectCard projectName={'Personal portafolio'} ProjectImage={'/webportafolio-project.png'} Stack={`React/Next.js/Bootstrap`} description={`Personal portafolio using Next.js`} />
                     </div>
                     <div className={`col-lg-3 col-10`}>
-                         <ProjectCard projectName={'Salsa Tepin'} ProjectImage={'/salsatepin-project.png'} Stack={`HTML/CSS/vanilla Javascript`} description={`Website for Salsa Tepin`} projectUrl={"https://www.salsatepin.com.mx/"} />
+                         <ProjectCard projectName={'Salsa Tepin'} ProjectImage={'/webportafolio-project.png'} Stack={`HTML/CSS/vanilla Javascript`} description={`Website for Salsa Tepin`} projectUrl={"https://www.salsatepin.com.mx/"} />
                     </div>
                 </div>
             </div>
