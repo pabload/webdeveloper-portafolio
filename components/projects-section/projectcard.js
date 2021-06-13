@@ -1,9 +1,17 @@
 import React, { useEffect } from 'react'
 import Styles from './projectsection.module.scss'
+import Image from 'next/image'
+
 const ProjectCard = ({ projectName, ProjectImage, Stack, description, projectUrl, SourceCodeUrl }) => {
     return (
         <div className={`${Styles.cardContainer}`}>
-            <img className={`${Styles.projectImage}`} src={ProjectImage} alt="project" srcSet="" />
+            <Image
+                className={`${Styles.projectImage}`}
+                alt="Mountains"
+                src={ProjectImage}
+                layout="fill"
+                objectFit="contain"
+            />
             <div class={`${Styles.hoverContainer}`}>
                 <div className={`${Styles.cardInfoContainer}`}>
                     <h3 className={`${Styles.cardTitle}`}>{projectName}</h3>

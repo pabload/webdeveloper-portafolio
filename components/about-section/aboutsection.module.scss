@@ -124,12 +124,15 @@
   transform: rotateY(180deg);
 }
 .ProgressBarContainer{
-  margin-bottom: 50px;
-  width: 50%;
-  height: 50%;
+  margin-bottom: 5%;
+  width: 150px;
+  height: 150px;
 }
 ////////////////
 @media screen and (min-width: 0px) and (max-width: 768px) {
+  .flipCardFront {
+    font-size: 12px;
+  }
   .flipCard {
     height: 200px;
     margin-bottom: 10%;

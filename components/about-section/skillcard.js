@@ -28,8 +28,8 @@ const SkillCard = ({ skill, details, url, progress }) => {
                                 alt="skill "
                                 src={url}
                                 layout="intrinsic"
-                                width={200}
-                                height={200}
+                                width={120}
+                                height={120}
                             />
                         </div>
                     </div>
