@@ -10,7 +10,7 @@ import { NextSeo } from 'next-seo';
 const index = () => {
   return (
     <>
-      <NextSeo
+      <NextSeo 
         title="Juan Pablo Armenta - Web developer"
         description="Hi, I'm Juan Pablo Armenta and this is my web portfolio. here you will find my projects and web developer skills."
       />
