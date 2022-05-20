@@ -12,7 +12,7 @@ const ProjectCard = ({ projectName, ProjectImage, Stack, description, projectUrl
                 layout="fill"
                 objectFit="contain"
             />
-            <div class={`${Styles.hoverContainer}`}>
+            <div className={`${Styles.hoverContainer}`}>
                 <div className={`${Styles.cardInfoContainer}`}>
                     <h3 className={`${Styles.cardTitle}`}>{projectName}</h3>
                     <p className={`${Styles.cardStack}`}>{Stack}</p>

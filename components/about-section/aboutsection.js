@@ -14,12 +14,12 @@ const Aboutsection = () => {
     return (
         <section id="aboutwork" className={Styles.mainContainer} >
             <div className={Styles.iconsContainer}>
-                <img className={`${Styles.icon} ${Styles.icon1}`} src="./fragment-icon.svg" alt="" srcset="" />
-                <img className={`${Styles.icon} ${Styles.icon2}`} src="./fragment-icon.svg" alt="" srcSet="" />
-                <img className={`${Styles.icon} ${Styles.icon3}`} src="./fragment-icon.svg" alt="" srcSet="" />
-                <img className={`${Styles.icon} ${Styles.icon4}`} src="./fragment-icon.svg" alt="" srcSet="" />
-                <img className={`${Styles.icon} ${Styles.icon5}`} src="./git-icon.svg" alt="" srcSet="" />
-                <img className={`${Styles.icon} ${Styles.icon6}`} src="./git-icon.svg" alt="" srcSet="" />
+                <img className={`${Styles.icon} ${Styles.icon1}`} src="./fragment-icon.svg" alt=""/>
+                <img className={`${Styles.icon} ${Styles.icon2}`} src="./fragment-icon.svg" alt=""/>
+                <img className={`${Styles.icon} ${Styles.icon3}`} src="./fragment-icon.svg" alt=""/>
+                <img className={`${Styles.icon} ${Styles.icon4}`} src="./fragment-icon.svg" alt=""/>
+                <img className={`${Styles.icon} ${Styles.icon5}`} src="./git-icon.svg" alt=""/>
+                <img className={`${Styles.icon} ${Styles.icon6}`} src="./git-icon.svg" alt=""/>
             </div>
             <div className={Styles.infoContainer}>
                 <h1 className={`${Styles.sectionTitle}`}><span>About</span> My skills</h1>
